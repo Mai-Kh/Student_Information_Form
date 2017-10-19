@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="studentinformation.css"?>
+<!DOCTYPE Student_Information_Form SYSTEM "studentinformation.dtd">
+
+ <StudentInformationForm>
+  <title>Student Information Form</title>	
+  <student>
+   <firstname>Audrey</firstname>
+   <lastname>Larabee</lastname>
+   <gender>F</gender>
+  </student>	
+  <dateofbirth>
+   <month>09</month>
+   <day>20</day>
+   <year>2008</year>	    	
+  </dateofbirth>
+  <age>9</age>
+  <address>
+   <street>200 Dosoris Lane</street>
+   <city>Glen Cove</city>
+   <state>NY</state>
+   <zipcode>11542</zipcode>
+  </address>	
+  <parentguardian>Sabrina Larabee</parentguardian>
+   <phone type="mobile">516-666-1212</phone>
+   <phone type="work">516-555-1212</phone>
+   <phone type="home">516-444-1212</phone>
+   <email>slarabee@vogue.com</email>
+  <parentguardian>Linus Larabee</parentguardian>
+   <phone type="mobile">516-333-1212</phone>
+   <phone type="work">516-222-1212</phone>
+   <phone type="home">516-111-1212</phone>
+   <email>llarabee@larabeecorp.com</email>
+  <allergieshealth>Audrey is mildly allergic to strawberries and cats.</allergieshealth>
+  <photopermission>Yes</photopermission>
+  <additionalinformation>None</additionalinformation>
+  <transportation>Pick-Up</transportation>
+  <ECIname>Sabrina Larabee</ECIname>
+  <ECIphone>516-333-1212</ECIphone>
+  <ECIrelationship>Mother</ECIrelationship>
+</StudentInformationForm>
+

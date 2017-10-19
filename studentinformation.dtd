@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT student (firstname, lastname, gender)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender type (M | F) #REQUIRED>
+<!ELEMENT dateofbirth (month, day, year)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (street, city, state, zipcode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT parentguardian (name, phone+, email?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (mobile | work | home) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT allergieshealth (#PCDATA)>
+<!ELEMENT photopermission (#PCDATA)>
+<!ELEMENT additionalinformation (#PCDATA)>
+<!ELEMENT transportation (#PCDATA)>
+<!ELEMENT ECIname (#PCDATA)>
+<!ELEMENT ECIphone (#PCDATA)>
+<!ELEMENT ECIrelationship (#PCDATA)>

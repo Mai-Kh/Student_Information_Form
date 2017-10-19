@@ -3,16 +3,16 @@
 <!DOCTYPE Student_Information_Form SYSTEM "studentinformation.dtd">
 
  <StudentInformationForm>
-  <title>Student Information Form</title>	
+  <title>Student Information Form</title>
   <student>
    <firstname>Audrey</firstname>
    <lastname>Larabee</lastname>
-   <gender>F</gender>
-  </student>	
+   <gender>M</gender>
+  </student>
   <dateofbirth>
    <month>09</month>
    <day>20</day>
-   <year>2008</year>	    	
+   <year>2008</year>
   </dateofbirth>
   <age>9</age>
   <address>
@@ -20,7 +20,7 @@
    <city>Glen Cove</city>
    <state>NY</state>
    <zipcode>11542</zipcode>
-  </address>	
+  </address>
   <parentguardian>Sabrina Larabee</parentguardian>
    <phone type="mobile">516-666-1212</phone>
    <phone type="work">516-555-1212</phone>
@@ -39,4 +39,3 @@
   <ECIphone>516-333-1212</ECIphone>
   <ECIrelationship>Mother</ECIrelationship>
 </StudentInformationForm>
-

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="studentinformation.css"?>
-<!DOCTYPE Student_Information_Form SYSTEM "studentinformation.dtd">
+<!DOCTYPE StudentInformationForm SYSTEM "studentinformation.dtd">
 
  <StudentInformationForm>
   <title>Student Information Form</title>

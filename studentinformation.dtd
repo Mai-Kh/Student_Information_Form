@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!DOCTYPE StudentInformationForm [
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT student (firstname, lastname, gender)>
 <!ELEMENT firstname (#PCDATA)>
@@ -28,3 +28,4 @@
 <!ELEMENT ECIname (#PCDATA)>
 <!ELEMENT ECIphone (#PCDATA)>
 <!ELEMENT ECIrelationship (#PCDATA)>
+]>

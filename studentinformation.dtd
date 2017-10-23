@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE StudentInformationForm [
 <!ELEMENT title (#PCDATA)>
-<!ELEMENT student (firstname, lastname, gender)>
+<!ELEMENT student (firstname, lastname, gender)> 
 <!ELEMENT firstname (#PCDATA)>
 <!ELEMENT lastname (#PCDATA)>
-<!ELEMENT gender (#PCDATA)>
+<!ELEMENT gender (#PCDATA)> 
 <!ATTLIST gender type (M | F) #REQUIRED>
 <!ELEMENT dateofbirth (month, day, year)>
 <!ELEMENT month (#PCDATA)>
